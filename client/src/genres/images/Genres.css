@@ -1,0 +1,108 @@
+
+.page{
+    margin-left: 75px;
+}
+
+.page-title{
+    font-size:36px;
+    font-weight: bold;
+    color:white;
+
+}
+.genre-card:hover{
+    transform :scale(1.09);
+    .genre-name { color:#BE3144}
+}
+.genre-card{
+    width:256px;
+    height:344px;
+    background-color:white;
+    text-align: left;
+    margin: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 80px;
+    border-style: solid;
+    display: inline-block;
+    margin-right: 45px;
+    margin-bottom: 35px;
+    transition: transform 0.3s ;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color:#BE3144;
+    } 
+    img {
+        width:256px;
+        height:344px;
+        padding-right: 30px;
+        border-radius: 60px;
+
+     
+    }
+   
+
+
+}
+.genre-name:hover { color:#BE3144}
+.genre-name {
+    color: white;
+    position: relative;
+    bottom: 75px;
+    font-weight: bold;
+    font-size: large;
+    right : 50px;
+    margin-left: 75px;
+
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color:#BE3144;
+    } 
+   
+
+}
+
+.quiz-button{
+    width: 813px;
+    height: 127px;
+    background-color: white;
+    color:black;
+    border-radius: 63px;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color:#22092C;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color:#22092C;
+    } 
+}
+
+.not-sure{
+    font-size: 40px;
+    font-weight:  bold;
+    color:white;
+    margin-left: 75px;
+    margin-top: 30px;
+}

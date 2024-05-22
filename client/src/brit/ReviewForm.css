@@ -1,0 +1,165 @@
+.review-form-popup {
+  background: linear-gradient(180deg, #BE3144, #872341); /* Popup background color */
+  padding: 20px;
+  border-radius: 20px; /* Rounded corners */
+  width: 700px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white; /* Font color */
+  position:sticky;
+  top: 50%;
+  left: 45.3%;
+  transform: translate(-35%, -50%);
+  z-index: 9999;
+}
+.review-form-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998; /* Ensure it's below the review form popup */
+}
+.review-form-popup h2 {
+  margin-top: 0;
+}
+
+.review-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 9999; /* Place it above everything else */
+}
+
+.star-rating {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.star-rating p{
+  margin-left: .1px;
+}
+
+.star {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.star.filled {
+  color: #FFE600; /* Filled star color */
+}
+
+.headline-label input::placeholder {
+  color: white; /* Placeholder text color */
+  resize: none;
+}
+textarea {
+  width: 400px; /* Fixed width for the textarea */
+  resize: none; /* Disable resizing */
+}
+
+textarea::placeholder {
+  color: white; /* Placeholder text color */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.close:hover {
+  color: #ccc;
+}
+
+.movie-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-poster img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.headline-label {
+  color: rgb(255, 255, 255); /* Headline label color */
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.headline-label input {
+  background-color: rgba(255, 255, 255, 0.297); /* Transparent input background */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+textarea {
+  background-color: rgba(255, 255, 255, 0.297); /* Transparent textarea background */
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  width: 90%;
+  height: 100px; /* Adjust textarea height */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.spoilers {
+  margin-top: 20px;
+  color: #ccc; /* Spoilers label color */
+}
+
+.spoilers label {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  color: #fff; /* Spoilers question text color */
+}
+
+.spoilers input[type="radio"] {
+  padding-bottom: 20px;
+  margin-right: 5px;
+}
+
+.review-title {
+  color: #fff; /* Your review text color */
+}
+
+.submit {
+  margin-top: 10px;
+  background-color: #8B0000; /* Dark red background color */
+  color: white; /* Font color */
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Center the button */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit:hover {
+  background-color: #5A0000; /* Darker shade of red on hover */
+}
+.star-rating h3{
+  color:white;
+}
